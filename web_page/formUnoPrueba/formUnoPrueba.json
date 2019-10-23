@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "formUnoPrueba",
   "name" : "formUnoPrueba",
-  "lastUpdate" : 1571869735977,
+  "lastUpdate" : 1571870545152,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -269,6 +269,52 @@
       "reference" : "8a0c3888-10ae-4f81-a921-590edafc29c0",
       "hasValidationError" : false,
       "id" : "pbSelect"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Default label"
+        },
+        "labelPosition" : {
+          "type" : "constant",
+          "value" : "top"
+        },
+        "labelWidth" : {
+          "type" : "constant",
+          "value" : 4
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<pre>\nAlgo mas para subir\n</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        }
+      },
+      "reference" : "4c5582a2-f601-4407-ac9a-a8704e0e5dd0",
+      "hasValidationError" : false,
+      "id" : "pbText"
     } ] ]
   } ] ],
   "assets" : [ {
