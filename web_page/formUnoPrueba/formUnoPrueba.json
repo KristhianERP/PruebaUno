@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "formUnoPrueba",
   "name" : "formUnoPrueba",
-  "lastUpdate" : 1571870545152,
+  "lastUpdate" : 1571872150408,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -270,9 +270,90 @@
       "hasValidationError" : false,
       "id" : "pbSelect"
     } ], [ {
-      "type" : "component",
+      "type" : "container",
       "dimension" : {
         "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "repeatedCollection" : {
+          "type" : "variable",
+          "value" : ""
+        }
+      },
+      "reference" : "e16042c3-0943-4769-a89e-dcde8076091a",
+      "hasValidationError" : false,
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "tabsContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "4c0b53cc-677b-45b9-88a6-13810d87a85b",
+        "hasValidationError" : false,
+        "id" : "pbTabsContainer",
+        "tabs" : [ {
+          "container" : {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : { },
+            "reference" : "c4bd0686-6a9d-4ed1-a6a6-16daa78a8388",
+            "hasValidationError" : false,
+            "id" : "pbContainer",
+            "rows" : [ [ ] ]
+          },
+          "title" : "Tab 2"
+        }, {
+          "container" : {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : { },
+            "reference" : "3c5e7527-9a35-4e70-b7c9-b1e92cea2a9d",
+            "hasValidationError" : false,
+            "id" : "pbContainer",
+            "rows" : [ [ ] ]
+          },
+          "title" : "Tab 1"
+        }, {
+          "container" : {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : { },
+            "reference" : "bed008e3-abc3-488c-83c5-3b290f9d17d9",
+            "hasValidationError" : false,
+            "id" : "pbContainer",
+            "rows" : [ [ ] ]
+          },
+          "title" : "Tab 3"
+        } ]
+      } ] ]
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 6
       },
       "propertyValues" : {
         "cssClasses" : {
