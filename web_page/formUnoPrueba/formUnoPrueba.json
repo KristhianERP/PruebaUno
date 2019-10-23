@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "formUnoPrueba",
   "name" : "formUnoPrueba",
-  "lastUpdate" : 1571868751121,
+  "lastUpdate" : 1571869735977,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -41,7 +41,7 @@
         },
         "text" : {
           "type" : "interpolation",
-          "value" : "Formulario Uno de Prueba"
+          "value" : "Formulario Uno de Prueba karen"
         },
         "level" : {
           "type" : "constant",
@@ -58,7 +58,7 @@
     } ], [ {
       "type" : "component",
       "dimension" : {
-        "xs" : 6
+        "xs" : 4
       },
       "propertyValues" : {
         "cssClasses" : {
@@ -129,7 +129,7 @@
     }, {
       "type" : "component",
       "dimension" : {
-        "xs" : 6
+        "xs" : 4
       },
       "propertyValues" : {
         "cssClasses" : {
@@ -150,11 +150,11 @@
         },
         "alignment" : {
           "type" : "constant",
-          "value" : "left"
+          "value" : "center"
         },
         "buttonStyle" : {
           "type" : "constant",
-          "value" : "success"
+          "value" : "danger"
         },
         "action" : {
           "type" : "constant",
@@ -210,6 +210,65 @@
       "reference" : "06a593a8-4e1e-40d8-9774-de0003e04bd6",
       "hasValidationError" : false,
       "id" : "pbButton"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 4
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "required" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Select"
+        },
+        "labelPosition" : {
+          "type" : "constant",
+          "value" : "top"
+        },
+        "labelWidth" : {
+          "type" : "constant",
+          "value" : 4
+        },
+        "placeholder" : {
+          "type" : "interpolation",
+          "value" : "Select an option"
+        },
+        "availableValues" : {
+          "type" : "constant"
+        },
+        "displayedKey" : {
+          "type" : "constant"
+        },
+        "returnedKey" : {
+          "type" : "constant"
+        },
+        "value" : {
+          "type" : "variable",
+          "value" : ""
+        }
+      },
+      "reference" : "8a0c3888-10ae-4f81-a921-590edafc29c0",
+      "hasValidationError" : false,
+      "id" : "pbSelect"
     } ] ]
   } ] ],
   "assets" : [ {
