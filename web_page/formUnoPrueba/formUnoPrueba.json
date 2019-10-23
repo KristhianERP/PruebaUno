@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "formUnoPrueba",
   "name" : "formUnoPrueba",
-  "lastUpdate" : 1571869735977,
+  "lastUpdate" : 1571870766579,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -41,7 +41,7 @@
         },
         "text" : {
           "type" : "interpolation",
-          "value" : "Formulario Uno de Prueba karen"
+          "value" : "Formulario Uno de Prueba GIT"
         },
         "level" : {
           "type" : "constant",
