@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "formUnoPrueba",
   "name" : "formUnoPrueba",
-  "lastUpdate" : 1571872942529,
+  "lastUpdate" : 1571870545152,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -305,7 +305,7 @@
         },
         "text" : {
           "type" : "interpolation",
-          "value" : "<pre>\nModificando desde la rama uno con mas jodas\n</pre>"
+          "value" : "<pre>\nModificando desde la rama uno con mas jodas Algo mas para subir\n</pre>"
         },
         "alignment" : {
           "type" : "constant",
