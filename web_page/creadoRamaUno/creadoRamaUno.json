@@ -1,0 +1,73 @@
+{
+  "designerVersion" : "1.9.61",
+  "id" : "creadoRamaUno",
+  "name" : "creadoRamaUno",
+  "lastUpdate" : 1571956161548,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable",
+        "value" : ""
+      }
+    },
+    "reference" : "15946e39-2085-4cb3-b687-5029756f18fa",
+    "hasValidationError" : false,
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Formulario Creado Desde Rama Uno"
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 1"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        }
+      },
+      "reference" : "a0b1fbc2-c307-42b5-925a-6e402c799340",
+      "hasValidationError" : false,
+      "id" : "pbTitle"
+    } ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "4211c123-dd44-4206-876f-283a93292f35",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "d6dfbedb-4fb4-4e2a-ab21-3559f76481eb",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
