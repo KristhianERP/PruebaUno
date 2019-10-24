@@ -2,8 +2,38 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
-  "lastUpdate" : 1571884060435,
-  "rows" : [ [ ] ],
+  "lastUpdate" : 1571928527282,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "Modificación desde hoyRamaDos"
+      },
+      "level" : {
+        "type" : "constant",
+        "value" : "Level 2"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "center"
+      }
+    },
+    "reference" : "8a77712e-478e-44e2-a84a-e6adc981d143",
+    "hasValidationError" : false,
+    "id" : "pbTitle"
+  } ] ],
   "assets" : [ {
     "id" : "9d9168ed-1beb-431e-a27f-8c4258dbab0d",
     "name" : "style.css",
