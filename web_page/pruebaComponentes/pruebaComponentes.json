@@ -2,7 +2,11 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
+<<<<<<< HEAD
   "lastUpdate" : 1571943302275,
+=======
+  "lastUpdate" : 1571933886015,
+>>>>>>> 4bf2edc4802e4ee20b211b8d1402e81023bdbe2e
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -11,7 +15,7 @@
     "propertyValues" : {
       "cssClasses" : {
         "type" : "constant",
-        "value" : ""
+        "value" : "titulo"
       },
       "hidden" : {
         "type" : "constant",
@@ -91,7 +95,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 1"
+          "value" : "Nombres"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -162,7 +166,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 2"
+          "value" : "Apellidos"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -242,8 +246,80 @@
       },
       "reference" : "26b4a63d-dbf1-46e0-a74c-048fe95e5179",
       "hasValidationError" : false,
+<<<<<<< HEAD
       "id" : "pbText"
     } ], [ {
+=======
+      "id" : "pbText",
+        "disabled" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Submit"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "buttonStyle" : {
+          "type" : "constant",
+          "value" : "danger"
+        },
+        "action" : {
+          "type" : "constant",
+          "value" : "Submit task"
+        },
+        "assign" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "url" : {
+          "type" : "interpolation"
+        },
+        "responseStatusCode" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "dataToSend" : {
+          "type" : "constant"
+        },
+        "dataFromSuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "closeOnSuccess" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "dataFromError" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "targetUrlOnSuccess" : {
+          "type" : "interpolation"
+        },
+        "collectionToModify" : {
+          "type" : "variable"
+        },
+        "modalId" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "collectionPosition" : {
+          "type" : "constant",
+          "value" : "Last"
+        },
+        "valueToAdd" : {
+          "type" : "constant"
+        },
+        "removeItem" : {
+          "type" : "variable"
+        }
+      },
+     ], [ {
+>>>>>>> 4bf2edc4802e4ee20b211b8d1402e81023bdbe2e
       "type" : "component",
       "dimension" : {
         "xs" : 12
@@ -257,6 +333,7 @@
           "type" : "constant",
           "value" : false
         },
+<<<<<<< HEAD
         "allowHTML" : {
           "type" : "constant",
           "value" : true
@@ -269,11 +346,14 @@
           "type" : "constant",
           "value" : "center"
         },
+=======
+>>>>>>> 4bf2edc4802e4ee20b211b8d1402e81023bdbe2e
         "srcType" : {
           "type" : "constant",
           "value" : "Asset"
         },
         "url" : {
+<<<<<<< HEAD
           "type" : "expression",
           "value" : ""
         },
@@ -285,6 +365,21 @@
       "reference" : "7d1cebaa-53f4-43a3-8b2b-c98c18f46c1d",
       "hasValidationError" : false,
       "id" : "customAlertanotiene"
+=======
+          "type" : "constant"
+        },
+        "assetName" : {
+          "type" : "constant",
+          "value" : "loading-image(1).gif"
+        },
+        "alt" : {
+          "type" : "interpolation"
+        }
+      },
+      "reference" : "a8ed7576-5d8e-4887-b5bf-318bdbccaef5",
+      "hasValidationError" : false,
+      "id" : "pbImage"
+>>>>>>> 4bf2edc4802e4ee20b211b8d1402e81023bdbe2e
     } ] ]
   } ] ],
   "assets" : [ {
@@ -298,6 +393,12 @@
     "name" : "style.css",
     "type" : "css",
     "order" : 0,
+    "external" : false
+  }, {
+    "id" : "3109a095-6418-4e77-af21-f4071e727835",
+    "name" : "loading-image(1).gif",
+    "type" : "img",
+    "order" : 1,
     "external" : false
   } ],
   "inactiveAssets" : [ ],
