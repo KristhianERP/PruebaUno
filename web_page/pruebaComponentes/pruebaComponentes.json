@@ -2,11 +2,8 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
-<<<<<<< HEAD
-  "lastUpdate" : 1571943302275,
-=======
   "lastUpdate" : 1571933886015,
->>>>>>> 4bf2edc4802e4ee20b211b8d1402e81023bdbe2e
+
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
