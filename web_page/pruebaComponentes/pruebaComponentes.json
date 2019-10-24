@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
-  "lastUpdate" : 1571928741353,
+  "lastUpdate" : 1571931900616,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -11,7 +11,7 @@
     "propertyValues" : {
       "cssClasses" : {
         "type" : "constant",
-        "value" : ""
+        "value" : "titulo"
       },
       "hidden" : {
         "type" : "constant",
@@ -197,9 +197,131 @@
       "reference" : "74dfe68b-fa63-43c4-86dd-2615cc8d97da",
       "hasValidationError" : false,
       "id" : "pbInput"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 3
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Submit"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "buttonStyle" : {
+          "type" : "constant",
+          "value" : "default"
+        },
+        "action" : {
+          "type" : "constant",
+          "value" : "Submit task"
+        },
+        "assign" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "url" : {
+          "type" : "interpolation"
+        },
+        "responseStatusCode" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "dataToSend" : {
+          "type" : "constant"
+        },
+        "dataFromSuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "closeOnSuccess" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "dataFromError" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "targetUrlOnSuccess" : {
+          "type" : "interpolation"
+        },
+        "collectionToModify" : {
+          "type" : "variable"
+        },
+        "modalId" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "collectionPosition" : {
+          "type" : "constant",
+          "value" : "Last"
+        },
+        "valueToAdd" : {
+          "type" : "constant"
+        },
+        "removeItem" : {
+          "type" : "variable"
+        }
+      },
+      "reference" : "adbcd3a9-23e9-4c01-b797-3d46ed8b3439",
+      "hasValidationError" : false,
+      "id" : "pbButton"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 3
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "srcType" : {
+          "type" : "constant",
+          "value" : "Asset"
+        },
+        "url" : {
+          "type" : "constant"
+        },
+        "assetName" : {
+          "type" : "constant",
+          "value" : "loading-image.gif"
+        },
+        "alt" : {
+          "type" : "interpolation"
+        }
+      },
+      "reference" : "831a60e9-c1fb-4bb1-8ca5-0f76d88845ae",
+      "hasValidationError" : false,
+      "id" : "pbImage"
     } ] ]
   } ] ],
   "assets" : [ {
+    "id" : "48e83c4e-52ee-49f2-af37-657cb28c5b7f",
+    "name" : "loading-image.gif",
+    "type" : "img",
+    "order" : 1,
+    "external" : false
+  }, {
     "id" : "9d9168ed-1beb-431e-a27f-8c4258dbab0d",
     "name" : "style.css",
     "type" : "css",
