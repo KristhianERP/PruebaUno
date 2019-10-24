@@ -1,7 +1,8 @@
 {
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
-  "name" : "pruebaComponentes",  "lastUpdate" : 1571928741353,
+  "name" : "pruebaComponentes",
+  "lastUpdate" : 1571933886015,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -10,7 +11,7 @@
     "propertyValues" : {
       "cssClasses" : {
         "type" : "constant",
-        "value" : ""
+        "value" : "titulo"
       },
       "hidden" : {
         "type" : "constant",
@@ -22,7 +23,7 @@
       },
       "level" : {
         "type" : "constant",
-        "value" : "Level 2"
+        "value" : "Level 1"
       },
       "alignment" : {
         "type" : "constant",
@@ -90,7 +91,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 1"
+          "value" : "Nombres"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -161,7 +162,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 2"
+          "value" : "Apellidos"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -196,6 +197,122 @@
       "reference" : "74dfe68b-fa63-43c4-86dd-2615cc8d97da",
       "hasValidationError" : false,
       "id" : "pbInput"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Submit"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "buttonStyle" : {
+          "type" : "constant",
+          "value" : "danger"
+        },
+        "action" : {
+          "type" : "constant",
+          "value" : "Submit task"
+        },
+        "assign" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "url" : {
+          "type" : "interpolation"
+        },
+        "responseStatusCode" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "dataToSend" : {
+          "type" : "constant"
+        },
+        "dataFromSuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "closeOnSuccess" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "dataFromError" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "targetUrlOnSuccess" : {
+          "type" : "interpolation"
+        },
+        "collectionToModify" : {
+          "type" : "variable"
+        },
+        "modalId" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "collectionPosition" : {
+          "type" : "constant",
+          "value" : "Last"
+        },
+        "valueToAdd" : {
+          "type" : "constant"
+        },
+        "removeItem" : {
+          "type" : "variable"
+        }
+      },
+      "reference" : "7cb5e984-3032-4ff6-936f-e37cfe007bad",
+      "hasValidationError" : false,
+      "id" : "pbButton"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "srcType" : {
+          "type" : "constant",
+          "value" : "Asset"
+        },
+        "url" : {
+          "type" : "constant"
+        },
+        "assetName" : {
+          "type" : "constant",
+          "value" : "loading-image(1).gif"
+        },
+        "alt" : {
+          "type" : "interpolation"
+        }
+      },
+      "reference" : "a8ed7576-5d8e-4887-b5bf-318bdbccaef5",
+      "hasValidationError" : false,
+      "id" : "pbImage"
     } ] ]
   } ] ],
   "assets" : [ {
@@ -203,6 +320,12 @@
     "name" : "style.css",
     "type" : "css",
     "order" : 0,
+    "external" : false
+  }, {
+    "id" : "3109a095-6418-4e77-af21-f4071e727835",
+    "name" : "loading-image(1).gif",
+    "type" : "img",
+    "order" : 1,
     "external" : false
   } ],
   "inactiveAssets" : [ ],

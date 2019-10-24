@@ -35,3 +35,16 @@ input[type='number'].ng-invalid.ng-dirty, input[type='password'].ng-invalid.ng-d
     z-index: 9999;
 }
 
+.titulo{
+    background:black;
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+}
+.btn-danger{
+    border-radius: 10px 0px 5px 0px;
+    padding:10px;
+    color:white;
+    background:red;
+    border:2px solid black;
+}
