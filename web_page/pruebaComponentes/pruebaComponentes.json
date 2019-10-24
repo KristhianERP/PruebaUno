@@ -1,9 +1,38 @@
 {
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
-  "name" : "pruebaComponentes",
-  "lastUpdate" : 1571927787793,
+  "name" : "pruebaComponentes",  "lastUpdate" : 1571928741353,
   "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "Modificación desde hoyRamaDos"
+      },
+      "level" : {
+        "type" : "constant",
+        "value" : "Level 2"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "center"
+      }
+    },
+    "reference" : "8a77712e-478e-44e2-a84a-e6adc981d143",
+    "hasValidationError" : false,
+    "id" : "pbTitle"
+  } ], [ {
     "type" : "container",
     "dimension" : {
       "xs" : 12
@@ -22,7 +51,7 @@
         "value" : ""
       }
     },
-    "reference" : "9116fce2-9c09-4d37-b0ee-9d45a9b93f79",
+    "reference" : "397fb1d3-d8ef-4da2-8850-6f8622aafa63",
     "hasValidationError" : false,
     "id" : "pbContainer",
     "rows" : [ [ {
@@ -93,7 +122,7 @@
           "value" : 1
         }
       },
-      "reference" : "c58f8d0b-221e-4d30-92ee-bbf5f0748941",
+      "reference" : "94a57a25-2dd3-4bb2-89e2-ed8ce3dbb565",
       "hasValidationError" : false,
       "id" : "pbInput"
     }, {
@@ -164,7 +193,7 @@
           "value" : 1
         }
       },
-      "reference" : "291ddbf3-945a-4af5-8d7e-b1e6b570c016",
+      "reference" : "74dfe68b-fa63-43c4-86dd-2615cc8d97da",
       "hasValidationError" : false,
       "id" : "pbInput"
     } ] ]
