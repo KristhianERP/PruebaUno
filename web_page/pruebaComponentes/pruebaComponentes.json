@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
-  "lastUpdate" : 1571928741353,
+  "lastUpdate" : 1571932926699,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -23,7 +23,7 @@
       },
       "level" : {
         "type" : "constant",
-        "value" : "Level 2"
+        "value" : "Level 1"
       },
       "alignment" : {
         "type" : "constant",
