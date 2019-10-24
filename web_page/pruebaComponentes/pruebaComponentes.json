@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
-  "lastUpdate" : 1571934984477,
+  "lastUpdate" : 1571943302275,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -243,9 +243,57 @@
       "reference" : "26b4a63d-dbf1-46e0-a74c-048fe95e5179",
       "hasValidationError" : false,
       "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "srcType" : {
+          "type" : "constant",
+          "value" : "Asset"
+        },
+        "url" : {
+          "type" : "expression",
+          "value" : ""
+        },
+        "assetName" : {
+          "type" : "constant",
+          "value" : "wrong.png"
+        }
+      },
+      "reference" : "7d1cebaa-53f4-43a3-8b2b-c98c18f46c1d",
+      "hasValidationError" : false,
+      "id" : "customAlertanotiene"
     } ] ]
   } ] ],
   "assets" : [ {
+    "id" : "80bbece1-509d-47f1-a378-67522018debb",
+    "name" : "wrong.png",
+    "type" : "img",
+    "order" : 1,
+    "external" : false
+  }, {
     "id" : "9d9168ed-1beb-431e-a27f-8c4258dbab0d",
     "name" : "style.css",
     "type" : "css",
