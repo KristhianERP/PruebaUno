@@ -34,9 +34,24 @@ input[type='number'].ng-invalid.ng-dirty, input[type='password'].ng-invalid.ng-d
 .modal-open .timepicker {
     z-index: 9999;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
 .titulo{
     background:black;
     color:white;
     font-weight:bold;
+<<<<<<< HEAD
     font-size:18px;
+=======
+    font-size:23px;
+}
+.btn-danger{
+    border-radius: 10px 0px 5px 0px;
+    padding:10px;
+    color:white;
+    background:red;
+    border:2px solid black;
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
 }

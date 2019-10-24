@@ -2,9 +2,13 @@
   "designerVersion" : "1.9.61",
   "id" : "pruebaComponentes",
   "name" : "pruebaComponentes",
+<<<<<<< HEAD
 
   "lastUpdate" : 1571931900616,
   "lastUpdate" : 1571932926699,
+=======
+  "lastUpdate" : 1571933886015,
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
 
   "rows" : [ [ {
     "type" : "component",
@@ -94,7 +98,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 1"
+          "value" : "Nombres"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -165,7 +169,7 @@
         },
         "label" : {
           "type" : "interpolation",
-          "value" : "nombre 2"
+          "value" : "Apellidos"
         },
         "labelPosition" : {
           "type" : "constant",
@@ -200,10 +204,17 @@
       "reference" : "74dfe68b-fa63-43c4-86dd-2615cc8d97da",
       "hasValidationError" : false,
       "id" : "pbInput"
+<<<<<<< HEAD
     }, {
       "type" : "component",
       "dimension" : {
         "xs" : 3
+=======
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
       },
       "propertyValues" : {
         "cssClasses" : {
@@ -214,6 +225,41 @@
           "type" : "constant",
           "value" : false
         },
+<<<<<<< HEAD
+=======
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Default label"
+        },
+        "labelPosition" : {
+          "type" : "constant",
+          "value" : "top"
+        },
+        "labelWidth" : {
+          "type" : "constant",
+          "value" : 4
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        }
+      },
+      "reference" : "26b4a63d-dbf1-46e0-a74c-048fe95e5179",
+      "hasValidationError" : false,
+      "id" : "pbText",
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
         "disabled" : {
           "type" : "constant",
           "value" : false
@@ -228,7 +274,11 @@
         },
         "buttonStyle" : {
           "type" : "constant",
+<<<<<<< HEAD
           "value" : "default"
+=======
+          "value" : "danger"
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
         },
         "action" : {
           "type" : "constant",
@@ -280,6 +330,7 @@
         "removeItem" : {
           "type" : "variable"
         }
+<<<<<<< HEAD
       },
       "reference" : "adbcd3a9-23e9-4c01-b797-3d46ed8b3439",
       "hasValidationError" : false,
@@ -288,6 +339,13 @@
       "type" : "component",
       "dimension" : {
         "xs" : 3
+=======
+      }
+     ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
       },
       "propertyValues" : {
         "cssClasses" : {
@@ -298,11 +356,27 @@
           "type" : "constant",
           "value" : false
         },
+<<<<<<< HEAD
+=======
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
         "srcType" : {
           "type" : "constant",
           "value" : "Asset"
         },
         "url" : {
+<<<<<<< HEAD
           "type" : "constant"
         },
         "assetName" : {
@@ -321,6 +395,25 @@
   "assets" : [ {
     "id" : "48e83c4e-52ee-49f2-af37-657cb28c5b7f",
     "name" : "loading-image.gif",
+=======
+          "type" : "expression",
+          "value" : ""
+        },
+        "assetName" : {
+          "type" : "constant",
+          "value" : "wrong.png"
+        }
+      },
+      "reference" : "7d1cebaa-53f4-43a3-8b2b-c98c18f46c1d",
+      "hasValidationError" : false,
+      "id" : "customAlertanotiene"
+
+    } ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "80bbece1-509d-47f1-a378-67522018debb",
+    "name" : "wrong.png",
+>>>>>>> a7e905019ec7e7e1e6b5e5ad98bdde4702c10023
     "type" : "img",
     "order" : 1,
     "external" : false
@@ -329,6 +422,12 @@
     "name" : "style.css",
     "type" : "css",
     "order" : 0,
+    "external" : false
+  }, {
+    "id" : "3109a095-6418-4e77-af21-f4071e727835",
+    "name" : "loading-image(1).gif",
+    "type" : "img",
+    "order" : 1,
     "external" : false
   } ],
   "inactiveAssets" : [ ],
