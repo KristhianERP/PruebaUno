@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "creadoRamaDos",
   "name" : "creadoRamaDos",
-  "lastUpdate" : 1572018120237,
+  "lastUpdate" : 1572018383546,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -69,6 +69,11 @@
     "PruebaVariableConGit" : {
       "type" : "json",
       "value" : "{\n    \"Uno\":\"uno\",\n    \"Dos\":2,\n    \"Tres\":true\n}",
+      "exposed" : false
+    },
+    "scriptGIT" : {
+      "type" : "expression",
+      "value" : "alert(\"Poniendo una alerta dentro del formulario\");",
       "exposed" : false
     }
   },
