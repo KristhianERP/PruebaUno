@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "RamaUno",
   "name" : "RamaUno",
-  "lastUpdate" : 1572023545502,
+  "lastUpdate" : 1572025223311,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -55,6 +55,71 @@
       "reference" : "c5d8de6c-f46c-428b-9c29-0289520a67f5",
       "hasValidationError" : false,
       "id" : "pbTitle"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "content" : {
+          "type" : "constant"
+        },
+        "selectedRow" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPISuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioSeleccion" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPIDetalleInfSuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPIQB" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambio" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "selectedRow2" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "idCompleto" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioSeleccioTablaEEFF" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "entorno" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioListador" : {
+          "type" : "variable",
+          "value" : ""
+        }
+      },
+      "reference" : "5b48afe0-578d-4925-8a11-33eb6516818f",
+      "hasValidationError" : false,
+      "id" : "customSTabsContEEFF"
     } ] ]
   } ] ],
   "assets" : [ {
