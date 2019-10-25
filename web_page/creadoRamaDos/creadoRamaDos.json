@@ -1,0 +1,73 @@
+{
+  "designerVersion" : "1.9.61",
+  "id" : "creadoRamaDos",
+  "name" : "creadoRamaDos",
+  "lastUpdate" : 1572016500431,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable",
+        "value" : ""
+      }
+    },
+    "reference" : "a0b53d9a-51f3-4a19-bc47-0dbe932c5da9",
+    "hasValidationError" : false,
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Creado Desde Rama Dos"
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 1"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        }
+      },
+      "reference" : "12281deb-a579-4a40-843d-9403761a3a10",
+      "hasValidationError" : false,
+      "id" : "pbTitle"
+    } ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "a06d6989-444e-492c-9879-b3ce4802c08e",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "8012b870-9493-4f8e-ab90-b692417cb537",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
