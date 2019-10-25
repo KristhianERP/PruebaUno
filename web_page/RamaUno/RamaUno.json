@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "RamaUno",
   "name" : "RamaUno",
-  "lastUpdate" : 1571955336096,
+  "lastUpdate" : 1572023545502,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -41,7 +41,7 @@
         },
         "text" : {
           "type" : "interpolation",
-          "value" : "Hoy Rama Uno"
+          "value" : "Modificado por hoyRamaUno"
         },
         "level" : {
           "type" : "constant",
