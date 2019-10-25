@@ -1,0 +1,138 @@
+{
+  "designerVersion" : "1.9.61",
+  "id" : "formHoyRamaDos",
+  "name" : "formHoyRamaDos",
+  "lastUpdate" : 1572027229132,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable",
+        "value" : ""
+      }
+    },
+    "reference" : "ab121842-5cef-4b75-bcea-10c8c49bbfa3",
+    "hasValidationError" : false,
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "Hoy RamaDos"
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 1"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        }
+      },
+      "reference" : "0f32e046-fcbc-4a0b-99b3-302db20fd4d0",
+      "hasValidationError" : false,
+      "id" : "pbTitle"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "content" : {
+          "type" : "constant"
+        },
+        "selectedRow" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPISuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioSeleccion" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPIDetalleInfSuccess" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "respuestaAPIQB" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambio" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "selectedRow2" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "idCompleto" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioSeleccioTablaEEFF" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "entorno" : {
+          "type" : "variable",
+          "value" : ""
+        },
+        "cambioListador" : {
+          "type" : "variable",
+          "value" : ""
+        }
+      },
+      "reference" : "7e355f43-68e2-4cd1-8851-49908fb16993",
+      "hasValidationError" : false,
+      "id" : "customSTabsContEEFF"
+    } ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "7804fb95-3a0c-4583-b5b3-15b21d778879",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "0f27b525-7413-47f6-accf-c0d2a78414d7",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
