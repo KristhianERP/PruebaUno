@@ -1,8 +1,8 @@
 {
   "designerVersion" : "1.9.61",
-  "id" : "RamaUno",
-  "name" : "RamaUno",
-  "lastUpdate" : 1572026574631,
+  "id" : "formHoyRamaDos",
+  "name" : "formHoyRamaDos",
+  "lastUpdate" : 1572027229132,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -22,7 +22,7 @@
         "value" : ""
       }
     },
-    "reference" : "0ac04c28-e5f2-46c1-811b-45c4332b01db",
+    "reference" : "ab121842-5cef-4b75-bcea-10c8c49bbfa3",
     "hasValidationError" : false,
     "id" : "pbContainer",
     "rows" : [ [ {
@@ -41,7 +41,7 @@
         },
         "text" : {
           "type" : "interpolation",
-          "value" : "Modificado por hoyRamaUno"
+          "value" : "Hoy RamaDos"
         },
         "level" : {
           "type" : "constant",
@@ -52,7 +52,7 @@
           "value" : "center"
         }
       },
-      "reference" : "c5d8de6c-f46c-428b-9c29-0289520a67f5",
+      "reference" : "0f32e046-fcbc-4a0b-99b3-302db20fd4d0",
       "hasValidationError" : false,
       "id" : "pbTitle"
     } ], [ {
@@ -117,13 +117,13 @@
           "value" : ""
         }
       },
-      "reference" : "44a26a0e-ebab-4ea9-adda-372e336ebccc",
+      "reference" : "7e355f43-68e2-4cd1-8851-49908fb16993",
       "hasValidationError" : false,
       "id" : "customSTabsContEEFF"
     } ] ]
   } ] ],
   "assets" : [ {
-    "id" : "6a8173e1-016c-42a2-9abe-febba1491267",
+    "id" : "7804fb95-3a0c-4583-b5b3-15b21d778879",
     "name" : "style.css",
     "type" : "css",
     "order" : 0,
@@ -132,7 +132,7 @@
   "inactiveAssets" : [ ],
   "data" : { },
   "hasValidationError" : false,
-  "uuid" : "bdc356d5-9456-4ea2-a586-0922c786c213",
+  "uuid" : "0f27b525-7413-47f6-accf-c0d2a78414d7",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
