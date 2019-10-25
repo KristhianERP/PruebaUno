@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "creadoRamaDos",
   "name" : "creadoRamaDos",
-  "lastUpdate" : 1572018645417,
+  "lastUpdate" : 1572018826890,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -78,6 +78,11 @@
     },
     "variableExternalAPI" : {
       "type" : "url",
+      "value" : "https://www.youtube.com/watch?v=IxdFN1dVf0U&list=RDgxqfwXl86is&start_radio=1",
+      "exposed" : false
+    },
+    "variableURLParametro" : {
+      "type" : "urlparameter",
       "value" : "https://www.youtube.com/watch?v=IxdFN1dVf0U&list=RDgxqfwXl86is&start_radio=1",
       "exposed" : false
     }
