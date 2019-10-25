@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.61",
   "id" : "creadoRamaDos",
   "name" : "creadoRamaDos",
-  "lastUpdate" : 1572016500431,
+  "lastUpdate" : 1572018120237,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -65,7 +65,13 @@
     "external" : false
   } ],
   "inactiveAssets" : [ ],
-  "data" : { },
+  "data" : {
+    "PruebaVariableConGit" : {
+      "type" : "json",
+      "value" : "{\n    \"Uno\":\"uno\",\n    \"Dos\":2,\n    \"Tres\":true\n}",
+      "exposed" : false
+    }
+  },
   "hasValidationError" : false,
   "uuid" : "8012b870-9493-4f8e-ab90-b692417cb537",
   "type" : "form",
